@@ -1,0 +1,15 @@
+current directory: /Users/ken1flan/src/engine_sample2/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/ken1flan/.anyenv/envs/rbenv/versions/3.0.5/bin/ruby -I /Users/ken1flan/.anyenv/envs/rbenv/versions/3.0.5/lib/ruby/3.0.0 -r ./siteconf20230517-76243-528yvs.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ken1flan/src/engine_sample2/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /Users/ken1flan/src/engine_sample2/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/ken1flan/src/engine_sample2/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20230517-76243-kjpicz/skiptrace/internal
