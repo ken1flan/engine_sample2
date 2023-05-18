@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Special</title>
-  <%= csrf_meta_tags %>
-  <%= csp_meta_tag %>
+  <head>
+    <title>EngineSample</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
 
-  <%= stylesheet_link_tag    "special/application", media: "all" %>
-</head>
-<body>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+  </head>
 
-<%= yield %>
-
-</body>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><%= link_to('Home', main_app.root_path) %></li>
+          <li><%= link_to('Projects', main_app.projects_path) %></li>
+          <li><%= link_to('Users', main_app.users_path) %></li>
+        </ul>
+      </nav>
+    </header>
+    <div class='body'>
+      <%= yield %>
+    </div>
+    <footer>
+      &copy; <%= Time.now.year %> EngineSample
+    </footer>
+  </body>
 </html>
+
