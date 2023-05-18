@@ -1,0 +1,30 @@
+header {
+  background-color: #eee;
+  nav {
+    display: inline-block;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        float: left;
+        a {
+          display: block;
+          padding: 10px;
+          text-decoration: none;
+          color: #000;
+          &:hover {
+            background-color: #eee;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #eee;
+  margin-top: 30px;
+  padding: 10px;
+}
+
